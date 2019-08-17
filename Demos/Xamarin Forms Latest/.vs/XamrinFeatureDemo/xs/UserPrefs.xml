@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{A8EB47A9-9F8D-4F62-A534-2C4D32A1AD38}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamrinFeatureDemo/MainPage.xaml.cs">
+    <Files>
+      <File FileName="XamrinFeatureDemo/MainPage.xaml.cs" Line="22" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamrinFeatureDemo" expanded="True">
+            <Node name="XamrinFeatureDemo" expanded="True">
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.XamrinFeatureDemo.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

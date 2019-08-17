@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="XamrinFeatureDemo.MainPage">
+    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+            <Label Text="Apple" TextColor="blue"/>
+        <CheckBox Color="blue"/>
+
+            </StackLayout>
+         <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+            <Label Text="Mango" TextColor="blue"/>
+        <CheckBox Color="blue"/>
+
+            </StackLayout>
+         <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+            <Label Text="Banana" TextColor="blue"/>
+        <CheckBox Color="blue"/>
+
+            </StackLayout>
+
+         <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+            <Label Text="Water Mellon" TextColor="blue"/>
+        <CheckBox Color="blue"/>
+            </StackLayout>
+    </StackLayout>
+</ContentPage>

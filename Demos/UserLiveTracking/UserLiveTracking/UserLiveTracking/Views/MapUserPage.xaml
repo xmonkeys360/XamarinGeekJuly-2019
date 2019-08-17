@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+     Title="User"
+             xmlns:customControl="clr-namespace:UserLiveTracking.CustomControl"
+             x:Class="UserLiveTracking.Views.MapUserPage">
+    <ContentPage.Content> 
+            <StackLayout>
+                <customControl:CustomMap x:Name="UserCustomMap" MapType="Satellite"></customControl:CustomMap>
+            </StackLayout> 
+    </ContentPage.Content>
+</ContentPage>

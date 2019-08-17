@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "2457769631",
+    "firebase_url": "https://userlivetracking.firebaseio.com",
+    "project_id": "userlivetracking",
+    "storage_bucket": "userlivetracking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2457769631:android:40a87e85a564dc45",
+        "android_client_info": {
+          "package_name": "com.UserLiveTracking.UserLiveTracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2457769631-mt2cfpct6m5v9mu8kvmq3oshtgf5qrk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcy8_YtADLWrlYaAIThjPcNdBH5s1QXNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2457769631-mt2cfpct6m5v9mu8kvmq3oshtgf5qrk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

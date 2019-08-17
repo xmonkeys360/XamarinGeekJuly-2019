@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinEssentialsDemo.BatteryInformation"
+             Title="Battery Information">
+    <ContentPage.Content>
+        <Grid RowSpacing="5" ColumnSpacing="5" Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Label Grid.Column="0" Grid.Row="0" Text="Charge Level" />
+            <Label Grid.Column="1" Grid.Row="0" Text="{Binding ChargeLevel}" />
+            <Label Grid.Column="0" Grid.Row="1" Text="Energy Saver Status" />
+            <Label Grid.Column="1" Grid.Row="1" Text="{Binding EnergySaverStatus}" />
+            <Label Grid.Column="0" Grid.Row="2" Text="State" />
+            <Label Grid.Column="1" Grid.Row="2" Text="{Binding State}" />
+            <Label Grid.Column="0" Grid.Row="3" Text="PowerSource" />
+            <Label Grid.Column="1" Grid.Row="3" Text="{Binding PowerSource}" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
